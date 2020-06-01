@@ -27,7 +27,8 @@ Ex:- {
 5. for edit just write like this above put box
 
 Ex:-{    
-        "id":2"
+        "id":"2",
+        
         "Name": "xyz",
         
         "Email": "xyz@gmail.com",
@@ -38,3 +39,5 @@ Ex:-{
         
         "Description": "I have to take all of my important file for that."
         }
+
+6.For delete just click on delete button.
