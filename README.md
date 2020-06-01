@@ -11,8 +11,10 @@ User Only When You Are Authenticated.
 
 Ex:- {
         "Name": "xyz",
-        "Email": "xyz@gmail.com",
-        "Title": "Event meeting",
-        "Description": "I have to take all of my important file for that."
         
-    }
+        "Email": "xyz@gmail.com",
+        
+        "Title": "Event meeting",
+        
+        "Description": "I have to take all of my important file for that."
+        }
