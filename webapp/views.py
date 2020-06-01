@@ -14,8 +14,6 @@ from rest_framework.decorators import api_view
 from   .models import usrs,Event
 from .serializers import usrsSerializer,EventSerializer
 class usr_requestapi(APIView):
-    authentication_classes = [SessionAuthentication, BasicAuthentication]
-    permission_classes = [IsAuthenticated]
     def get(self,request):
         art = usrs.objects.all()
         s = usrsSerializer(art, many=True)
