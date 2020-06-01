@@ -5,7 +5,7 @@ Instructions Of using Link
 
 1.when you put http://127.0.0.1:8000/registration/ using local host you will see post method along with all registered
 
-User Only When You Are Authenticated into djangoadmin.
+User.
 
 2.In order to do registration you have to put text in box above post method in json format like this
 
@@ -18,9 +18,9 @@ Ex:- {
         
         "Title": "Event meeting",
         
-        "Description": "I have to take all of my important file for that."
+        "Description": "I have to take all of my important files for that."
         }
-3. when you want to see your details of events then you just need to add your email id like this http://127.0.0.1:8000/registration/email//.
+3. when you want to see your details of events then you just need to add your email id like this http://127.0.0.1:8000/registration/email/.only when you are authenticated to djangoadmin.
 
 4. when you want to edit or delete event than you can add your id of that event into link like this http://127.0.0.1:8000/id/.
 
