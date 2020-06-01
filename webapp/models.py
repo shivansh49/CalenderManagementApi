@@ -7,7 +7,7 @@ class usrs(models.Model):
         return self.Name
 class Event(models.Model):
     Email = models.CharField(max_length=50)
-    Date = models.DateTimeField(auto_now_add=True)
+    Date = models.CharField(max_length=50)
     Title = models.CharField(max_length=200)
     Description = models.CharField(max_length=200)
     def __str__(self):
